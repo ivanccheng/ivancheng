@@ -6,6 +6,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Main from './components/Main'
 import Resume from './components/Resume'
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/' element={Main()} />
           <Route exact path='/about' element={About()} />
           <Route exact path='/resume' element={Resume()} />
+          <Route exact path='/projects' element={Projects()} />
         </Routes>
       </Router>
     </div>

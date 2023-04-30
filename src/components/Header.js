@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Header = () => (
-  <div class="header">
-  <a class="/" href="/">Home</a>
+  <div className="header">
+  <a className="/" href="/">Ivan Cheng</a>
   <a href="about">About</a>
   <a href="resume">Resume</a>
+  <a href="projects">Projects</a>
 </div>
 )
 
