@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-import Emoji from './Emoji'
+// import Emoji from './Emoji'
 import Experiences from './Jobs';
 
 const Main = () => {
