@@ -1,14 +1,18 @@
 
 import './App.css';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from './components/Header'
 import About from './components/About'
-import Main from './components/Main'
+import Main from './components/Experiences'
 import Resume from './components/Resume'
 import Projects from './components/Projects';
 
 function App() {
+  useEffect(() => {
+    document.title = "Ivan Cheng";
+  }, []);
   return (
     <div className="App">
       <Router>

@@ -24,19 +24,23 @@ import ImageList from './ImageList';
 
 
 function Card(props) {
-    const styles = {
-        backgroundImage: `url(${loadImage(props.logo)})`,
-        backgroundSize: 'cover',
-        // height: '1vw'
-    };
     return (
         <div className="card">
             {/* <div className="company-logo">
                 <img src={loadImage(props.logo)} alt={props.company} />
             </div> */}
+
             <div className="card-header">
+                <div className='link-container'>
+                    <a href={props.link} target="_blank" rel="noopener noreferrer">
+                        <img src={loadImage('link2.svg')} className='link-icon'></img>
+                    </a>
+
+                </div>
                 <div className="company-info">
-                    <h2>{props.company}</h2>
+                    <h2>{props.company}
+
+                    </h2>
                     <h4>{props.jobTitle}</h4>
                 </div>
             </div>
@@ -64,8 +68,3 @@ function loadImage(source) {
 
 
 export default Card
-function MyComponent() {
-
-    return <div style={{ color: 'blue', lineHeight: 10, padding: 20 }}> Inline Styled Component</div>
-
-}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-import Emoji from '../components/Emoji'
+import Emoji from './Emoji'
 import Experiences from './Jobs';
 
 const Main = () => {
@@ -13,6 +13,7 @@ const Main = () => {
                         logo={experience.logo}
                         images={experience.images}
                         jobTitle={experience.jobTitle}
+                        link={experience.link}
                         company={experience.company}
                         duration={experience.duration}
                         jobResponsibilities={experience.jobResponsibilities}

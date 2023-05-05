@@ -7,10 +7,12 @@ const proj = [
     {
         image: 'baddie-match.png',
         title: 'Baddie-match',
-        link: 'github.com',
+        link: 'https://github.com/uwbaddev/baddie-match',
         desc: [
-            'a;ldkfj',
-            'asdlfk;j'
+            'Fullstack application, used to track badminton matches UW\'s Badminton Team',
+            'Mentored juniors in software development, providing instruction on design methodologies and coding techniques',
+            'Streamlined application development using dockerfiles to build production-ready images and docker-compose to optimize local development',
+            'Implemented Elo tracking system to assign skill rankings to players based on wins and score differential',
         ],
         tags: ['React', 'Flask', 'Postgres', 'Docker', 'REST API', 'Heroku']
     },
@@ -18,7 +20,7 @@ const proj = [
         image: 'straights.png',
         // image: null,
         title: 'Straights',
-        link: 'github.com',
+        link: 'https://github.com/ivanccheng/cardgame-straights',
         desc: [
             'Object oriented turn based card game, built in C++, playable from CLI',
             'Leverages separate compilation, operator overloading, and inheritance',

@@ -3,7 +3,10 @@ import React from "react";
 const Experiences =
     [
         {
+            jobTitle: 'Full Stack Software Developer',
+            company: 'OpenText',
             logo: 'opentext.png',
+            link: 'https://www.opentext.com/about',
             images: [
                 ['Node', 'node_js.png'],
                 ['Angular', 'angular.svg'],
@@ -11,8 +14,6 @@ const Experiences =
                 ['Docker', 'docker.svg'],
                 ['Redis', 'redis.svg']
             ],
-            jobTitle: 'Full Stack Software Developer',
-            company: 'OpenText',
             duration: 'Sept - Dec 2022',
             jobResponsibilities: [
                 'Implemented security measures utilizing Blackduck and Twistlock',
@@ -22,6 +23,8 @@ const Experiences =
             ]
         },
         {
+            jobTitle: 'Full Stack Software Developer',
+            company: 'Mobials',
             logo: 'company-logo-1.png',
             images: [
                 ['PHP', 'php.svg'],
@@ -29,8 +32,7 @@ const Experiences =
                 ['MySQL', 'mysql.svg'],
                 ['RabbitMQ', 'rabbitmq.svg']
             ],
-            jobTitle: 'Full Stack Software Developer',
-            company: 'Mobials',
+            link: "https://mobials.com/",
             duration: 'Jan - Apr 2022',
             jobResponsibilities: [
                 'Integrated application with third party services such as Google My Business, Lenderdesk, and SiriusXM, using PHP and REST APIs.',
@@ -40,6 +42,8 @@ const Experiences =
             ]
         },
         {
+            company: 'Venngage',
+            duration: 'May - Aug 2021',
             logo: 'company-logo-1.png',
             images: [
                 ['AWS EC2', 'aws-ec2.svg'],
@@ -49,8 +53,7 @@ const Experiences =
 
             ],
             jobTitle: 'Software Automation Engineer',
-            company: 'Venngage',
-            duration: 'May - Aug 2021',
+            link: "https://venngage.com/",
             jobResponsibilities: [
                 'Implemented test automation pipeline using REST APIS to manage execution on AWS EC2 instances',
                 'Optimized Test suite execution by leveraging multithreading, reducing runtime by 25%',
@@ -66,21 +69,23 @@ const Experiences =
                 ['Selenium', 'selenium.svg'],
                 ['Testing', 'testing.svg'],
             ],
+            link: 'https://360educationlabs.com/',
             duration: 'May - Aug 2021',
             jobResponsibilities: [
                 'Collaborated with developers to create 50+ test cases for new and evolving features',
                 'Prevented major functional, security, and feature errors from being released by thoroughly running smoke tests.',
-                'Implemented automated tests Java and Selenium.'
+                'Implemented automated tests using Java and Selenium.'
             ]
         },
         {
-            logo: 'company-logo-1.png',
-            images: [
-                ['PHP', 'php.svg'], ,
-                ['CMS', 'backup.svg'],
-            ],
             jobTitle: 'System Administrator Intern',
             company: 'World Link Communications',
+            logo: 'company-logo-1.png',
+            images: [
+                ['PHP', 'php.svg'],
+                ['CMS', 'backup.svg'],
+            ],
+            link: 'http://www.wlink.ca/html1/index.html',
             duration: 'May - Aug 2021',
             jobResponsibilities: [
                 'Implemented script to validate and export data from Customer Management System (CMS) using PHP',

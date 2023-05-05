@@ -14,22 +14,30 @@ function ProjectCard(props) {
 
     return (
         <div className="project-card">
+        {/* <div className="card"> */}
+
             {isSmallScreen || window.innerWidth < 670 ? (
                 <div></div>
             ) : (
                 <img
                     src={loadImage(props.image)}
+                    alt=""
                     className='project-image'
                 />)}
+            <div className="project-title">
+                <h2>{props.title}</h2>
+                <a href={props.link} target="_blank" rel="noopener noreferrer">
+                    <img src={loadImage("github.png")} className='project-icon'></img>
+                </a>
+            </div >
 
-            <h2>{props.title}</h2>
             <Tag tags={props.tags}></Tag>
             <ul>
                 {props.desc.map((d) => (
                     <li> {d}</li>
                 ))}
             </ul>
-        </div>
+        </div >
     );
 }
 
