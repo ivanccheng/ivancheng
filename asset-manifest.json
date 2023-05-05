@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ivancheng/static/css/main.0d9b41aa.css",
+    "main.js": "/ivancheng/static/js/main.d88f6b73.js",
+    "static/js/787.70f6df53.chunk.js": "/ivancheng/static/js/787.70f6df53.chunk.js",
+    "static/media/straights.png": "/ivancheng/static/media/straights.20239020c15ea5c2bb48.png",
+    "static/media/opentext.png": "/ivancheng/static/media/opentext.e1d4753d7187857c6105.png",
+    "static/media/devops.png": "/ivancheng/static/media/devops.c446c77fcfbc5ae0ad6b.png",
+    "static/media/baddie-match.png": "/ivancheng/static/media/baddie-match.0bb4ffac69ad615f7f74.png",
+    "static/media/github.png": "/ivancheng/static/media/github.c76697ae58e9439a37d8.png",
+    "static/media/redis.svg": "/ivancheng/static/media/redis.5e6c30d35d3d4dde40b6.svg",
+    "static/media/bash.svg": "/ivancheng/static/media/bash.12b9574c657e4e3629a6.svg",
+    "static/media/selenium.svg": "/ivancheng/static/media/selenium.fb23c33b0df5583d1aba.svg",
+    "static/media/angular.svg": "/ivancheng/static/media/angular.82a370c36c09e79edaa6.svg",
+    "static/media/rabbitmq.svg": "/ivancheng/static/media/rabbitmq.8c5236ce044994ffd240.svg",
+    "static/media/logo.svg": "/ivancheng/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "static/media/mysql.svg": "/ivancheng/static/media/mysql.c7cf06c150d9ae01731d.svg",
+    "static/media/api.svg": "/ivancheng/static/media/api.2e11df544a4a91528648.svg",
+    "static/media/backup.svg": "/ivancheng/static/media/backup.98e7ae3261d42731b843.svg",
+    "index.html": "/ivancheng/index.html",
+    "static/media/aws-ec2.svg": "/ivancheng/static/media/aws-ec2.914e0bd2edb0db1c1410.svg",
+    "static/media/docker.svg": "/ivancheng/static/media/docker.a00bd91f95a8f5bba1c3.svg",
+    "static/media/testing.svg": "/ivancheng/static/media/testing.7f189915a6311955cb8e.svg",
+    "static/media/link.svg": "/ivancheng/static/media/link.cf8ecb8c209985b69b49.svg",
+    "static/media/php.svg": "/ivancheng/static/media/php.0b0111c4a590cebc5af4.svg",
+    "static/media/vue.svg": "/ivancheng/static/media/vue.2b520303788d88b4e0c3.svg",
+    "static/media/link2.svg": "/ivancheng/static/media/link2.324828bd27bdd84d2a6a.svg",
+    "main.0d9b41aa.css.map": "/ivancheng/static/css/main.0d9b41aa.css.map",
+    "main.d88f6b73.js.map": "/ivancheng/static/js/main.d88f6b73.js.map",
+    "787.70f6df53.chunk.js.map": "/ivancheng/static/js/787.70f6df53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9b41aa.css",
+    "static/js/main.d88f6b73.js"
+  ]
+}
