@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Header from './components/Header'
 import About from './components/About'
@@ -13,18 +13,34 @@ function App() {
   useEffect(() => {
     document.title = "Ivan Cheng";
   }, []);
+  // return (
+  //   <div className="App">
+  //     <Router>
+  //       <Header />
+  //       <Routes>
+  //         {/* <Route exact path='/' element={About()} /> */}
+  //         <Route  path='/' element={Main()} />
+  //         <Route  path='/experience' element={Main()} />
+  //         <Route  path='/resume' element={Resume()} />
+  //         <Route  path='/projects' element={Projects()} />
+  //       </Routes>
+  //     </Router>
+  //   </div>
+
+  // );
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          {/* <Route exact path='/' element={About()} /> */}
-          <Route exact path='/' element={Main()} />
-          <Route exact path='/experience' element={Main()} />
-          <Route exact path='/resume' element={Resume()} />
-          <Route exact path='/projects' element={Projects()} />
-        </Routes>
-      </Router>
+      <HashRouter>
+        <div>
+          <Header></Header>
+          <Routes>
+            <Route exact path='/experience/' element={Main()} />
+            <Route exact path='/resume/' element={Resume()} />
+            <Route exact path='/projects/' element={Projects()} />
+            <Route exact path='/' element={Main()} />
+          </Routes>
+        </div>
+      </HashRouter>
     </div>
 
   );
