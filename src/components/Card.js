@@ -2,27 +2,6 @@ import React from 'react';
 import List from './List';
 import ImageList from './ImageList';
 
-// function Card(props) {
-//     return (
-//       <div className="card">
-//         {/* <div className="company-logo">
-//           <img src={props.logo} alt={props.company} />
-//         </div> */}
-//         <div className="company-info">
-//           <h2>{props.jobTitle}</h2>
-//           <h4>{props.company}</h4>
-//           <p>{props.duration}</p>
-//           <ul>
-//             {props.jobResponsibilities.map((responsibility, index) => (
-//               <li key={index}>{responsibility}</li>
-//             ))}
-//           </ul>
-//         </div>
-//       </div>
-//     );
-//   }
-
-
 function Card(props) {
     return (
         <div className="card">
