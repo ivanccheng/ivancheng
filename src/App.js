@@ -13,21 +13,6 @@ function App() {
   useEffect(() => {
     document.title = "Ivan Cheng";
   }, []);
-  // return (
-  //   <div className="App">
-  //     <Router>
-  //       <Header />
-  //       <Routes>
-  //         {/* <Route exact path='/' element={About()} /> */}
-  //         <Route  path='/' element={Main()} />
-  //         <Route  path='/experience' element={Main()} />
-  //         <Route  path='/resume' element={Resume()} />
-  //         <Route  path='/projects' element={Projects()} />
-  //       </Routes>
-  //     </Router>
-  //   </div>
-
-  // );
   return (
     <div className="App">
       <HashRouter>

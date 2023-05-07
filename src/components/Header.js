@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => (
   <div>          
     <nav className="header">
-    <a className="/" href="https://ivanccheng.github.io/ivancheng/">Ivan Cheng</a>
+    <a className="/" href="https://ivanccheng.github.io/web/">Ivan Cheng</a>
     <a href="#/experience">Work</a>
     <a href="#/projects">Projects</a>
     <a
