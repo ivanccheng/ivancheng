@@ -7,10 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <meta property="og:title" content="Ivan Cheng" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ivanccheng.github.io/web/" />
-    <meta property="og:image" content={require('./assets/' + 'android-chrome-512x512.png')} />
+  
     <div className='root'>
       <App />
     </div>
