@@ -3,6 +3,26 @@ import React from "react";
 const Experiences =
     [
         {
+            jobTitle: 'Product Design and Developer',
+            company: 'Interac',
+            logo: 'opentext.png',
+            link: 'https://www.opentext.com/about',
+            images: [
+                ['Node', 'node_js.png'],
+                ['Angular', 'angular.svg'],
+                ['Devops', 'devops.png'],
+                ['Docker', 'docker.svg'],
+                ['Redis', 'redis.svg']
+            ],
+            duration: 'Sept - Dec 2022',
+            jobResponsibilities: [
+                'Implemented security measures utilizing Blackduck and Twistlock',
+                'Created deployment and testing pipeline for node.js application',
+                'Upgraded auth token manager using Bigints and Buffers to manage cryptographic tokens',
+                'Designed UI components and resolved bugs in Angular.js'
+            ]
+        },
+        {
             jobTitle: 'Full Stack Software Developer',
             company: 'OpenText',
             logo: 'opentext.png',
@@ -70,7 +90,7 @@ const Experiences =
                 ['Testing', 'testing.svg'],
             ],
             link: 'https://360educationlabs.com/',
-            duration: 'May - Aug 2021',
+            duration: 'May - Aug 2020',
             jobResponsibilities: [
                 'Collaborated with developers to create 50+ test cases for new and evolving features',
                 'Prevented major functional, security, and feature errors from being released by thoroughly running smoke tests.',
@@ -86,7 +106,7 @@ const Experiences =
                 ['CMS', 'backup.svg'],
             ],
             link: 'http://www.wlink.ca/html1/index.html',
-            duration: 'May - Aug 2021',
+            duration: 'May - Aug 2019',
             jobResponsibilities: [
                 'Implemented script to validate and export data from Customer Management System (CMS) using PHP',
                 'Performed routine backups of company data for both offsite storage and onsite servers',

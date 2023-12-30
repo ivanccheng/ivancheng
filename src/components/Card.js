@@ -8,19 +8,20 @@ function Card(props) {
             {/* <div className="company-logo">
                 <img src={loadImage(props.logo)} alt={props.company} />
             </div> */}
-
             <div className="card-header">
                 <div className='link-container'>
+                    <p >
+                        {props.duration}
+                    </p>
                     <a href={props.link} target="_blank" rel="noopener noreferrer">
                         <img src={loadImage('link2.svg')} className='link-icon'></img>
                     </a>
 
                 </div>
                 <div className="company-info">
-                    <h2>{props.company}
-
-                    </h2>
-                    <h4>{props.jobTitle}</h4>
+                    <h2>{props.company} </h2>
+                    {/* <h4>{props.duration} </h4> */}
+                    <h4>{props.jobTitle} </h4>
                 </div>
             </div>
             {/* <p>{props.duration}</p> */}
